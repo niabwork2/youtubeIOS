@@ -17,6 +17,7 @@
 		8C975D00263E40480039FA76 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C975CFF263E40480039FA76 /* Video.swift */; };
 		8C975D02263E40830039FA76 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C975D01263E40830039FA76 /* Model.swift */; };
 		8C975D04263E47230039FA76 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C975D03263E47230039FA76 /* ConstantsTemplate.swift */; };
+		8C975D06263E513A0039FA76 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C975D05263E513A0039FA76 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8C975CFF263E40480039FA76 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		8C975D01263E40830039FA76 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		8C975D03263E47230039FA76 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
+		8C975D05263E513A0039FA76 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				8C975D03263E47230039FA76 /* ConstantsTemplate.swift */,
 				8C975CFF263E40480039FA76 /* Video.swift */,
 				8C975D01263E40830039FA76 /* Model.swift */,
+				8C975D05263E513A0039FA76 /* Response.swift */,
 			);
 			path = youtubeIOS;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C975D06263E513A0039FA76 /* Response.swift in Sources */,
 				8C975D04263E47230039FA76 /* ConstantsTemplate.swift in Sources */,
 				8C2CC4AF26356CF500A67369 /* ViewController.swift in Sources */,
 				8C2CC4AB26356CF500A67369 /* AppDelegate.swift in Sources */,
