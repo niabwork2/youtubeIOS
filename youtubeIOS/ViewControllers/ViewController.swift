@@ -13,7 +13,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     var model = Model()
     var videos = [Video]()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -21,9 +21,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.delegate = self
         
         model.delegate = self
-
+        
         model.getVideos()
-  
+        
     }
     
     // MARK: - Model Delegate Methods
@@ -47,22 +47,22 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: Constants.VIDEOCELL_ID, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: Constants.VIDEOCELL_ID, for: indexPath) as! VideoTableViewCell
         
         // Configure cell with data
-        // Get the title for the video
-        let title = self.videos[indexPath.row].title
         
-        cell.textLabel?.text = title
+        let video = self.videos[indexPath.row]
+        
+        cell.setCell(video)
         
         return cell
         
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        print("Tap")
     }
-
-
+    
+    
 }
 
